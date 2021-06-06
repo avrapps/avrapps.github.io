@@ -2,150 +2,58 @@
 title: About
 sections:
   - type: hero_section
-    title: About
-    subtitle: About Page Demo
+    title: AVR Apps
+    subtitle: About Us
     align: center
     background_color: secondary
   - type: features_section
     features:
-      - title: Section Title One
-        subtitle: 'Odio et tortor laoreet, sed interdum augue ornare. '
+      - title: Rama Krishna Ayinumpudi (RK)
+        subtitle: 'Android/Software Developer, Cofounder of AVR-Apps'
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+          <b>About me: </b>I am from Sangupalem Kodur(A village in Guntur,India). <br>
+          I am an engineering graduate from RVR&JC College.
+          I work as Senior Software Engineer at Amazon. <br>
+          I am very passionate about programming, and we develop these android applications & windows software in our free time.<br>
+          Apart from work I am interested to test mobile/PC games and play with my kid.
         image: images/about-5.jpg
         image_alt: People in conversation in the office lounge area
         media_position: right
-        media_width: fifty
-      - title: Section Title Two
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+        media_width: fourty
+      - title: Siva Krishna Ayinumpudi (Siva)
+        subtitle: 'Android/Software Developer, Founder/CEO of AVR-Apps'
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+          <b>About me: </b>I am from Sangupalem Kodur(A village in Guntur,India). <br>
+          I am an engineering graduate from National Institute of technology, Goa.
         image: images/about-2.jpg
         image_alt: People in a conference room
         media_position: left
-        media_width: fifty
-      - title: Section Title Three
-        subtitle: 'Donec nisl ligula, cursus id molestie vel. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
-        image: images/about-1.jpg
-        image_alt: Happy co-workers
-        media_position: right
-        media_width: fifty
-  - type: grid_section
-    title: Our Officess
-    grid_items:
-      - title: Some City
-        content: >-
-          1234 Some St.<br/> Some City, ST 12345<br/>
-          [1-234-556-7890](tel:+12345567890)<br/>
-          [email@example.com](mailto:email@example.com)
-        content_align: left
-        actions:
-          - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        actions_align: left
-        actions_width: auto
-      - title: Some City
-        content: >-
-          1234 Some St.<br/> Some City, ST 12345<br/>
-          [1-234-556-7890](tel:+12345567890)<br/>
-          [email@example.com](mailto:email@example.com)
-        content_align: left
-        actions:
-          - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        actions_align: left
-        actions_width: auto
-      - title: Some City
-        content: >-
-          1234 Some St.<br/> Some City, ST 12345<br/>
-          [1-234-556-7890](tel:+12345567890)<br/>
-          [email@example.com](mailto:email@example.com)
-        content_align: left
-        actions:
-          - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        actions_align: left
-        actions_width: auto
-      - title: Some City
-        content: >-
-          1234 Some St.<br/> Some City, ST 12345<br/>
-          [1-234-556-7890](tel:+12345567890)<br/>
-          [email@example.com](mailto:email@example.com)
-        content_align: left
-        actions:
-          - label: Get Directions
-            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        actions_align: left
-        actions_width: auto
-    grid_cols: four
-    grid_gap_horiz: large
-    grid_gap_vert: large
-    enable_cards: true
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
-  - type: cta_section
-    title: This is a Call to Action
-    content: Ut egestas elementum suscipit. Quisque at hendrerit mauris.
-    actions:
-      - label: Compare Plans
-        url: /pricing
-        style: primary
-    align: center
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: primary
+        media_width: fourty
 seo:
-  title: About
-  description: This is the about us page
+  title: About AVR Apps
+  description: About the developers of AVR Apps
   extra:
     - name: 'og:type'
-      value: website
+      value: bobile
       keyName: property
     - name: 'og:title'
-      value: About
+      value: AVR Apps Facebook page
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: Best mobile apps to make your smart phone powerful.
       keyName: property
     - name: 'og:image'
-      value: images/about-1.jpg
+      value: images/diy-preview.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: About
+      value: AVR Apps Twitter page
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Best mobile apps to make your smart phone powerful.
     - name: 'twitter:image'
-      value: images/about-1.jpg
+      value: /_static/app-assets/avrapps-logo-512-min.png
       relativeUrl: true
 layout: advanced
 ---

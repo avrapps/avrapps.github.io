@@ -2,25 +2,33 @@
 title: Home
 sections:
   - type: hero_section
-    actions: []
+    title: AVR Apps
+    subtitle: Enrich your life with next generation mobile apps
+    content: none
+    actions:
+      - label: Check Android Apps
+        url: /android
+        style: primary
+      - label: Check Windows Apps
+        url: /windows
+        style: primary
     image_alt: Hero section placeholder image
     media_position: left
     media_width: fifty
     align: left
     padding_top: large
     padding_bottom: large
-    background_color: none
-    background_image: images/avrapps-storefront-1024.png
-    background_image_position: center center
-    background_image_size: auto
+    background_color: primary
+    background_image: none
+    background_image_position: top center
+    background_image_size: cover
     background_image_repeat: no-repeat
   - type: grid_section
-    title: Our Apps
-    subtitle: Grid Section Example
+    title: Our Best Apps
     align: center
     grid_items:
-      - image: images/PDFViewerLite.webp
-        image_alt: Contentful logo
+      - image: images/pdf-viewer-lite.webp
+        image_alt: PDFViewer Lite logo
         image_align: center
         actions:
           - style: secondary
@@ -30,18 +38,16 @@ sections:
             new_window: true
             no_follow: false
             type: action
-            url: >-
-              https://play.google.com/store/apps/details?id=com.avrapps.pdfviewer
+            url: 'https://play.google.com/store/apps/details?id=com.avrapps.pdfviewer'
             label: PDF Viewer Lite
         title_align: center
         actions_align: center
-      - image: images/mighty-artichoke.webp
+      - image: images/smart-search-launcher.webp
         image_alt: Netlify logo
         image_align: center
         actions:
           - label: Smart Search Launcher
-            url: >-
-              https://play.google.com/store/apps/details?id=com.avrapps.pixellauncher
+            url: 'https://play.google.com/store/apps/details?id=com.avrapps.pixellauncher'
             style: secondary
             has_icon: true
             icon: arrow-right
@@ -50,11 +56,12 @@ sections:
             no_follow: false
             type: action
         actions_align: center
-      - image: images/clever-zebra.webp
-        image_alt: Gatsby logo
+        actions_align: center
+      - image: images/document-scanner.webp
+        image_alt: Document Scanner logo
         image_align: center
         actions:
-          - label: Awesome Notes
+          - label: Document Scanner
             url: 'https://play.google.com/store/apps/details?id=com.avrapps.note'
             style: secondary
             has_icon: true
@@ -63,89 +70,80 @@ sections:
             new_window: true
             no_follow: false
             type: action
-        actions_align: center
-      - image: images/pleasant-lavender.webp
-        image_alt: Sanity logo
+      - image: images/telugu-calendar.webp
+        image_alt: Telugu Calendar logo
         image_align: center
-      - image: images/graceful-elm.webp
-        image_alt: DatoCMS logo
+        actions:
+          - label: Telugu Calendar
+            url: 'https://play.google.com/store/apps/details?id=com.avrapps.note'
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: false
+            type: action
+      - image_alt: Cursor Manager logo
+        image: images/cursor-manager.png
         image_align: center
-      - image_alt: Gridsome logo
-        image_align: center
-      - image_alt: Git logo
-        image_align: center
+        actions:
+          - label: Cursor manager
+            url: 'https://play.google.com/store/apps/details?id=com.avrapps.note'
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: false
+            type: action
     grid_cols: four
     grid_gap_horiz: medium
     grid_gap_vert: medium
-  - type: features_section
-    title: Features Section
-    subtitle: Features Section Example
-    features:
-      - title: The Big Title For the Feature
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        image: images/classic/feature-1.png
-        image_alt: Feature 1 placeholder image
-        media_position: right
-        media_width: fifty
-      - title: The Big Title For the Feature
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        image: images/classic/feature-2.png
-        image_alt: Feature 2 placeholder image
-        media_position: left
-        media_width: fifty
-      - title: The Big Title For the Feature
-        subtitle: 'Sed sed commodo turpis, eget rutrum dui.'
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        image: images/classic/feature-3.png
-        image_alt: Feature 3 placeholder image
-        media_position: right
-        media_width: fifty
-    feature_padding_vert: large
+  - type: grid_section
+    title: Reviews 
+    subtitle: PDF Viewer lite App
+    grid_items:
+      - content: >-
+          Finally a pdf viewer that doesn't want to share my data and only needs permission to access the files it needs and also throw in that extra set of tools and this is by far best one ive seen
+
+
+          **	Ryan Smith,** *From Play Store*
+        image: images/google-user.webp
+        image_alt: Ryan Smith
+        image_position: left
+        image_width: twenty-five
+      - content: >-
+          ke using power point presentation. Easy to navigate, highlight important text and even has 4 background options for better reading conditions.
+
+
+          **Florea Bogdan,** *From play Store*
+        image: images/google-user.webp
+        image_alt: Florea Bogdan
+        image_position: left
+        image_width: twenty-five
+      - content: >-
+          This is really good app.Too fast and best for pdf openeing 😀😀😀. Has bunch of useful tools for pdf.  If you just have this app you can do anything with PDF on your mobile.
+
+
+          **Mohammed Tayeb,** *From Playstore*
+        image: images/google-user.webp
+        image_alt: Mohammed Tayeb
+        image_position: left
+        image_width: twenty-five
+      - content: >-
+          Lot of features to quickly access pdf files. No pdf viewer ios comparable to this in play store.
+
+
+          **Gordon Norman,** *From Playstore*
+        image: images/google-user.webp
+        image_alt: Gordon Norman
+        image_position: left
+        image_width: twenty-five
+    grid_cols: two
+    grid_gap_horiz: medium
+    grid_gap_vert: large
     align: center
     background_color: secondary
-  - type: features_section
-    features:
-      - title: >-
-          “Stackbit is fast! Themes are always up to date. It’s easy to use
-          across the organization, and collaboration is easy.”
-        subtitle: 'Brandon Guidelines, Sr. Design Manager at Company'
-        image: images/brandon-guidelines.png
-        image_alt: Brandon Guidelines
-        media_position: right
-        media_width: thirty-three
-    feature_padding_vert: small
-    background_color: primary
   - type: grid_section
     title: Cards Grid Section
     subtitle: Grid Section Example
@@ -216,138 +214,6 @@ sections:
     enable_cards: true
     align: center
     background_color: none
-  - type: grid_section
-    title: Reviews Section
-    subtitle: Grid Section Example
-    grid_items:
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Hanson Deck,** *App Developer, Studio*
-        image: images/hanson-deck.png
-        image_alt: Hanson Deck
-        image_position: left
-        image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Miles Tone,** *CEO, Studio*
-        image: images/miles-tone.png
-        image_alt: Miles Tone
-        image_position: left
-        image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Eleanor Carr,** *CTO, Studio*
-        image: images/eleanor-carr.png
-        image_alt: Eleanor Carr
-        image_position: left
-        image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Gordon Norman,** *Web Designer, Studio*
-        image: images/gordon-norman.png
-        image_alt: Gordon Norman
-        image_position: left
-        image_width: twenty-five
-    grid_cols: two
-    grid_gap_horiz: medium
-    grid_gap_vert: large
-    align: center
-    background_color: secondary
-  - type: cta_section
-    title: This is Call To Action Section In DIY Theme!
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
-    actions:
-      - label: Learn More
-        url: /features
-        style: secondary
-    actions_position: right
-    actions_width: fourty
-    align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
-  - type: grid_section
-    title: Team Section
-    subtitle: Grid Section Example
-    actions:
-      - label: Join the team
-        url: /style-guide
-        style: primary
-    grid_items:
-      - title: Gustav Purpleson
-        subtitle: Co-Founder & CEO
-        title_align: center
-        image: images/gustav-purpleson.jpg
-        image_position: top
-      - title: Dianne Ameter
-        subtitle: Software Engineer
-        title_align: center
-        image: images/dianne-ameter.jpg
-        image_position: top
-      - title: Hugh Saturation
-        subtitle: Developer Advocate
-        title_align: center
-        image: images/hugh-saturation.jpg
-        image_position: top
-      - title: Hilary Ouse
-        subtitle: Operations Manager
-        title_align: center
-        image: images/hilary-ouse.jpg
-        image_position: top
-    grid_cols: four
-    align: center
-    background_color: secondary
-  - type: blog_feed_section
-    title: What's New
-    subtitle: Blog Feed Section Example
-    actions:
-      - label: View All
-        url: /blog
-        style: primary
-    blog_feed_cols: three
-    enable_cards: true
-    show_recent: true
-    recent_count: 3
-    show_image: true
-    show_date: true
-    show_categories: true
-    show_author: true
-    show_excerpt: false
-    align: center
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
-  - type: cta_section
-    title: This is Call To Action Section In DIY Theme!
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
-    actions:
-      - label: Button
-        url: /pricing
-        style: primary
-    actions_position: bottom
-    align: center
-    padding_top: large
-    padding_bottom: large
-    background_color: secondary
 seo:
   title: AVR Apps Home Page
   description: Best mobile apps to make your smart phone powerful.

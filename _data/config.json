@@ -1,24 +1,19 @@
 {
-    "title": "Stackbit DIY Theme",
+    "title": "AVR Apps Website",
     "layout_type": "boxed",
     "style": "classic",
     "palette": "green",
     "mode": "light",
     "base_font": "serif",
     "header": {
-        "title": "DIY",
+        "title": "AVR Apps",
         "logo": "images/avrapps-logo-128-min.png",
-        "logo_alt": "DIY logo",
+        "logo_alt": "AVR Apps logo",
         "has_primary_nav": true,
         "primary_nav_links": [
             {
                 "label": "PDF Tools",
                 "url": "/features",
-                "style": "link"
-            },
-            {
-                "label": "Awesome Note",
-                "url": "/pricing",
                 "style": "link"
             },
             {
@@ -44,16 +39,6 @@
                 "type": "action"
             },
             {
-                "url": "#",
-                "style": "link",
-                "has_icon": false,
-                "icon": "arrow-left",
-                "icon_position": "right",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            },
-            {
                 "label": "About",
                 "url": "/about",
                 "style": "link"
@@ -64,7 +49,7 @@
                 "style": "link"
             }
         ],
-        "has_secondary_nav": true,
+        "has_secondary_nav": false,
         "secondary_nav_links": [
             {
                 "label": "Contact",
@@ -77,18 +62,18 @@
                 "style": "primary"
             }
         ],
-        "has_anncmnt": true,
-        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
+        "has_anncmnt": false,
+        "anncmnt_content": "PDF Viewer new version released **[Get Now](https://play.google.com/store/apps/details?id=com.avrapps.pdfviewer)**",
         "anncmnt_align": "left",
         "anncmnt_is_home_only": true,
         "anncmnt_has_close": true,
         "anncmnt_id": "new-features"
     },
     "footer": {
-        "logo": "images/classic/logo.svg",
-        "logo_alt": "DIY logo",
+        "logo": "images/avrapps-logo-128-min.png",
+        "logo_alt": "AVR Apps logo",
         "has_primary_nav": true,
-        "primary_nav_title": "Company",
+        "primary_nav_title": "AVR Apps",
         "primary_nav_links": [
             {
                 "label": "About",
@@ -96,8 +81,8 @@
                 "style": "link"
             },
             {
-                "label": "Style Guide",
-                "url": "/style-guide",
+                "label": "Contact Us",
+                "url": "/contact",
                 "style": "link"
             }
         ],
@@ -138,7 +123,7 @@
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://mobile.twitter.com/AvrApps",
                 "style": "link",
                 "has_icon": true,
                 "icon": "twitter",
@@ -147,7 +132,7 @@
             },
             {
                 "label": "GitHub",
-                "url": "https://github.com/",
+                "url": "https://github.com/ramu2514",
                 "style": "link",
                 "has_icon": true,
                 "icon": "github",
@@ -155,17 +140,8 @@
                 "new_window": true
             },
             {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "linkedin",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
                 "label": "YouTube",
-                "url": "https://www.youtube.com/",
+                "url": "https://www.youtube.com/channel/UCpaFI1o4vvgK9vK5ckpGOSA/featured\n",
                 "style": "link",
                 "has_icon": true,
                 "icon": "youtube",
@@ -173,16 +149,16 @@
                 "new_window": true
             },
             {
-                "label": "Vimeo",
-                "url": "https://vimeo.com/",
+                "label": "Telegram",
+                "url": "https://t.me/PdfViewerLiteAndroid",
                 "style": "link",
                 "has_icon": true,
-                "icon": "vimeo",
+                "icon": "telegram",
                 "icon_position": "center",
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=diy&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "content": "&copy; AVR-Apps. All rights reserved."
     },
     "domain": "www.avrapps.com"
 }
