@@ -2,54 +2,77 @@
 title: Home
 sections:
   - type: hero_section
-    title: This Is A Big Hero Headline
-    subtitle: Optional hero section subtitle
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel.
-    actions:
-      - label: Try Free
-        url: /pricing
-        style: primary
-      - label: Learn More
-        url: /features
-        style: secondary
-    image: images/classic/hero.png
+    actions: []
     image_alt: Hero section placeholder image
     media_position: left
     media_width: fifty
     align: left
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: none
+    background_image: images/avrapps-storefront-1024.png
+    background_image_position: center center
+    background_image_size: auto
+    background_image_repeat: no-repeat
   - type: grid_section
-    title: Image Grid
+    title: Our Apps
     subtitle: Grid Section Example
     align: center
     grid_items:
-      - image: images/logo-1.svg
+      - image: images/PDFViewerLite.webp
         image_alt: Contentful logo
         image_align: center
-      - image: images/logo-2.svg
+        actions:
+          - style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: false
+            type: action
+            url: >-
+              https://play.google.com/store/apps/details?id=com.avrapps.pdfviewer
+            label: PDF Viewer Lite
+        title_align: center
+        actions_align: center
+      - image: images/mighty-artichoke.webp
         image_alt: Netlify logo
         image_align: center
-      - image: images/logo-3.svg
+        actions:
+          - label: Smart Search Launcher
+            url: >-
+              https://play.google.com/store/apps/details?id=com.avrapps.pixellauncher
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: false
+            type: action
+        actions_align: center
+      - image: images/clever-zebra.webp
         image_alt: Gatsby logo
         image_align: center
-      - image: images/logo-4.svg
+        actions:
+          - label: Awesome Notes
+            url: 'https://play.google.com/store/apps/details?id=com.avrapps.note'
+            style: secondary
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+            new_window: true
+            no_follow: false
+            type: action
+        actions_align: center
+      - image: images/pleasant-lavender.webp
         image_alt: Sanity logo
         image_align: center
-      - image: images/logo-5.svg
+      - image: images/graceful-elm.webp
         image_alt: DatoCMS logo
         image_align: center
-      - image: images/logo-6.svg
-        image_alt: Next.js logo
+      - image_alt: Gridsome logo
         image_align: center
-      - image: images/logo-7.svg
-        image_alt: Gridsome logo
-        image_align: center
-      - image: images/logo-8.svg
-        image_alt: Git logo
+      - image_alt: Git logo
         image_align: center
     grid_cols: four
     grid_gap_horiz: medium
@@ -326,17 +349,17 @@ sections:
     padding_bottom: large
     background_color: secondary
 seo:
-  title: Stackbit DIY Theme
-  description: The preview of the DIY theme
+  title: AVR Apps Home Page
+  description: Best mobile apps to make your smart phone powerful.
   extra:
     - name: 'og:type'
-      value: website
+      value: bobile
       keyName: property
     - name: 'og:title'
-      value: Stackbit DIY Theme
+      value: AVR Apps Facebook page
       keyName: property
     - name: 'og:description'
-      value: The preview of the DIY theme
+      value: Best mobile apps to make your smart phone powerful.
       keyName: property
     - name: 'og:image'
       value: images/diy-preview.png
@@ -345,11 +368,11 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit DIY Theme
+      value: AVR Apps Twitter page
     - name: 'twitter:description'
-      value: The preview of the DIY theme
+      value: Best mobile apps to make your smart phone powerful.
     - name: 'twitter:image'
-      value: images/diy-preview.png
+      value: /_static/app-assets/avrapps-logo-512-min.png
       relativeUrl: true
 layout: advanced
 ---

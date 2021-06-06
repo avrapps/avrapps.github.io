@@ -7,19 +7,51 @@
     "base_font": "serif",
     "header": {
         "title": "DIY",
-        "logo": "images/classic/logo.svg",
+        "logo": "images/avrapps-logo-128-min.png",
         "logo_alt": "DIY logo",
         "has_primary_nav": true,
         "primary_nav_links": [
             {
-                "label": "Features",
+                "label": "PDF Tools",
                 "url": "/features",
                 "style": "link"
             },
             {
-                "label": "Pricing",
+                "label": "Awesome Note",
                 "url": "/pricing",
                 "style": "link"
+            },
+            {
+                "label": "Windows Apps",
+                "url": "#",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "right",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "Android Apps",
+                "url": "#",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "right",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "url": "#",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "right",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
             },
             {
                 "label": "About",
@@ -29,11 +61,6 @@
             {
                 "label": "Blog",
                 "url": "/blog",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
                 "style": "link"
             }
         ],
@@ -156,5 +183,6 @@
             }
         ],
         "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=diy&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
-    }
+    },
+    "domain": "www.avrapps.com"
 }
